@@ -19,6 +19,7 @@ import Typography from '@mui/material/Typography';
 import ToggleTheme from './ToggleTheme';
 import { Button, Stack, createTheme } from '@mui/material';
 import TransitionHover from './Logo';
+import GlobalCssOverride from './GlobalTheme';
 
 
 const drawerWidth = 240;
@@ -166,6 +167,7 @@ export default function ResponsiveDrawer(props: Props) {
                     eleifend. Commodo viverra maecenas accumsan lacus vel facilisis. Nulla
                     posuere sollicitudin aliquam ultrices sagittis orci a.
                 </Typography>
+                <GlobalCssOverride />
             </Box>
             <Button className={theme.spacing(4)}>My Button</Button>
             <ToggleTheme />

@@ -5,6 +5,7 @@ import { Box, Stack } from '@mui/material'
 
 import Main from './Components/Main'
 import TransitionHover from './Components/Logo'
+import GlobalCssOverride from './Components/GlobalTheme'
 
 
 function App() {
@@ -17,8 +18,8 @@ function App() {
         <Stack direction={"row"} spacing={2} justifyContent={"space-between"}>
           <Main />
         </Stack>
-
       </Box>
+
     </>
   )
 }
